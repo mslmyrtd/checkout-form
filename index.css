@@ -1,0 +1,14 @@
+#container{
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: repeat(13,100px);
+    column-gap: 0.5em;
+}
+#container div{
+    border: black solid 2px;
+}
+#content1{
+    height: 25px;
+    vertical-align: middle;
+}
+
